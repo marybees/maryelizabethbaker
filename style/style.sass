@@ -5,6 +5,11 @@ $quaternary-color: #000000
 $background-color: #FFFFFF
 $primary-font-color: #000000
 
+h1, h2, h3
+    margin: 0
+    text-transform: uppercase
+    padding: 1rem
+
 .right-align
     text-align: right
 
@@ -17,9 +22,8 @@ $primary-font-color: #000000
 button
     border: solid .15rem black
     padding: .5rem
-    background: $primary-color
     font-size: 1rem
-    font-weight: bold
+    font-weight: 600
     text-transform: uppercase
 
 *
@@ -29,18 +33,15 @@ html
     font-size: 62.5%
 
 body
+    font-family: 'Encode Sans'
+    font-weight: 400
     background: $background-color
     color: $primary-font-color
 
 #header
-    display: grid
-    grid-template-rows: 1fr
-    text-transform: uppercase
-    font-weight: bold
     h1
-        padding: 1rem
         text-align: center
-        font-size: 2rem
+        font-size: 3rem
 
 nav
     display: grid
@@ -49,20 +50,24 @@ nav
     #nav-left
         margin-left: 4rem
         h2, h3, h4
+            margin: 0
             padding: 1rem
         #initial
             display: grid
             grid-template-columns: 2fr 2fr
-            font-size: 2rem
-            font-weight: bold
+            font-size: 2.5rem
+            font-weight: 500
             text-decoration: underline
             text-align: center
         #profession
             font-size: 1.5rem
             font-weight: bold
+            font-weight: 500
         #bio
             font-size: 1rem
+            font-weight: 400
         button
+            background: $primary-color
             margin: 1rem
     #nav-right
         margin-right: 4rem
@@ -70,19 +75,45 @@ nav
         align-items: end
         text-align: center
 
-#portfolio
+.section-heading
+    margin: 0
     padding: 2rem
     display: grid
     grid-template-columns: 1fr 1fr
     font-weight: bold
-    #icon
+    .icon
         padding: 1rem
         margin-left: 20rem
         text-align: right
-    #portfolio-text
+    .text
         padding: 1rem
         margin-right: 20rem
         text-align: left
+#skills
+    background: $secondary-color
+    padding: 4rem
+    display: grid
+    grid-template-columns: 1fr 3fr 1fr 3fr
+    .skill
+        padding: 1rem
+    .level-container
+        display: grid
+    .level
+        display: grid
+        margin: 1rem
+        border: solid black .1rem
+    .beginner
+        background: $quaternary-color
+        margin-right: 15rem
+    .advanced-beginner
+        background: $quaternary-color
+        margin-right: 12rem
+    .intermediate
+        background: $quaternary-color
+        margin-right: 10rem
+    .advanced-intermediate
+        background: $quaternary-color
+        margin-right: 5rem
 
 #projects
     margin: 0 2rem 2rem 2rem
@@ -120,7 +151,7 @@ nav
         font-weight: bold
         text-transform: uppercase
     button
-        background: $tertiary-color
+        background: $secondary-color
 
 footer
     background: $quaternary-color

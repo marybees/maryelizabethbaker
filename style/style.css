@@ -1,3 +1,9 @@
+h1, h2, h3 {
+  margin: 0;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
 .right-align {
   text-align: right;
 }
@@ -13,9 +19,8 @@
 button {
   border: solid 0.15rem black;
   padding: 0.5rem;
-  background: #9AD7D8;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -28,20 +33,15 @@ html {
 }
 
 body {
+  font-family: "Encode Sans";
+  font-weight: 400;
   background: #FFFFFF;
   color: #000000;
 }
 
-#header {
-  display: grid;
-  grid-template-rows: 1fr;
-  text-transform: uppercase;
-  font-weight: bold;
-}
 #header h1 {
-  padding: 1rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 nav {
@@ -53,24 +53,28 @@ nav #nav-left {
   margin-left: 4rem;
 }
 nav #nav-left h2, nav #nav-left h3, nav #nav-left h4 {
+  margin: 0;
   padding: 1rem;
 }
 nav #nav-left #initial {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: 500;
   text-decoration: underline;
   text-align: center;
 }
 nav #nav-left #profession {
   font-size: 1.5rem;
   font-weight: bold;
+  font-weight: 500;
 }
 nav #nav-left #bio {
   font-size: 1rem;
+  font-weight: 400;
 }
 nav #nav-left button {
+  background: #9AD7D8;
   margin: 1rem;
 }
 nav #nav-right {
@@ -80,21 +84,56 @@ nav #nav-right {
   text-align: center;
 }
 
-#portfolio {
+.section-heading {
+  margin: 0;
   padding: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-weight: bold;
 }
-#portfolio #icon {
+.section-heading .icon {
   padding: 1rem;
   margin-left: 20rem;
   text-align: right;
 }
-#portfolio #portfolio-text {
+.section-heading .text {
   padding: 1rem;
   margin-right: 20rem;
   text-align: left;
+}
+
+#skills {
+  background: #FFE6E1;
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 3fr;
+}
+#skills .skill {
+  padding: 1rem;
+}
+#skills .level-container {
+  display: grid;
+}
+#skills .level {
+  display: grid;
+  margin: 1rem;
+  border: solid black 0.1rem;
+}
+#skills .beginner {
+  background: #000000;
+  margin-right: 15rem;
+}
+#skills .advanced-beginner {
+  background: #000000;
+  margin-right: 12rem;
+}
+#skills .intermediate {
+  background: #000000;
+  margin-right: 10rem;
+}
+#skills .advanced-intermediate {
+  background: #000000;
+  margin-right: 5rem;
 }
 
 #projects {
@@ -140,7 +179,7 @@ nav #nav-right {
   text-transform: uppercase;
 }
 #contact button {
-  background: #F7BEC7;
+  background: #FFE6E1;
 }
 
 footer {
