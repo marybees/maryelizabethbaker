@@ -1,0 +1,163 @@
+.right-align {
+  text-align: right;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+button {
+  border: solid 0.15rem black;
+  padding: 0.5rem;
+  background: #f7d3ba;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+* {
+  border: solid red 1px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: white;
+  color: black;
+}
+
+#header {
+  display: grid;
+  grid-template-rows: 1fr;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#header div {
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: #f7d3ba;
+}
+nav #nav-left {
+  margin-left: 4rem;
+}
+nav #nav-left div {
+  padding: 1rem;
+}
+nav #nav-left #initial {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+nav #nav-left #profession {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav #nav-left #bio {
+  font-size: 1rem;
+}
+nav #nav-right {
+  margin-right: 4rem;
+  display: grid;
+  align-items: end;
+  text-align: center;
+}
+
+#portfolio {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-weight: bold;
+}
+#portfolio #icon {
+  padding: 1rem;
+  margin-left: 20rem;
+  text-align: right;
+}
+#portfolio #portfolio-text {
+  padding: 1rem;
+  margin-right: 20rem;
+  text-align: left;
+}
+
+#projects {
+  margin: 0 2rem 2rem 2rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1.5rem;
+  column-gap: 1.5rem;
+  text-align: center;
+}
+#projects div {
+  padding: 10rem;
+}
+#projects .project-1 {
+  background: #e6e7e5;
+}
+#projects .project-2 {
+  background: #f5efe3;
+}
+#projects .project-3 {
+  background: #a6aa9c;
+}
+#projects .project-4 {
+  background: #f7d3ba;
+}
+
+#contact {
+  background: #f5efe3;
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+}
+#contact div {
+  padding: 0.5rem;
+  margin: 0.25rem;
+}
+#contact span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#contact button {
+  background: #f5efe3;
+  margin: 0.25rem;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+footer div {
+  padding: 0.5rem;
+  text-align: center;
+}
+footer #location {
+  display: grid;
+  grid-template-columns: 10fr 1fr 10fr;
+  font-weight: bold;
+}
+footer #social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*# sourceMappingURL=style.css.map */

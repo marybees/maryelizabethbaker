@@ -1,0 +1,141 @@
+$primary-color: #f7d3ba
+$secondary-color: #a6aa9c
+$tertiary-color: #f5efe3
+$quaternary-color: #e6e7e5
+$background-color: white
+$footer-color: black
+$primary-font-color: black
+
+.right-align
+    text-align: right
+
+.center-align
+    text-align: center
+
+.left-align
+    text-align: left
+
+button
+    border: solid .15rem black
+    padding: .5rem
+    background: $primary-color
+    font-size: 1rem
+    font-weight: bold
+    text-transform: uppercase
+
+*
+    border: solid red 1px
+
+html
+    font-size: 62.5%
+
+body
+    background: $background-color
+    color: $primary-font-color
+
+#header
+    display: grid
+    grid-template-rows: 1fr
+    text-transform: uppercase
+    font-weight: bold
+    div
+        padding: 1rem
+        text-align: center
+        font-size: 2rem
+
+nav
+    display: grid
+    grid-template-columns: 2fr 1fr
+    background: $primary-color
+    #nav-left
+        margin-left: 4rem
+        div
+            padding: 1rem
+        #initial
+            display: grid
+            grid-template-columns: 2fr 2fr
+            font-size: 2rem
+            font-weight: bold
+            text-decoration: underline
+            text-align: center
+        #profession
+            font-size: 1.5rem
+            font-weight: bold
+        #bio
+            font-size: 1rem
+    #nav-right
+        margin-right: 4rem
+        display: grid
+        align-items: end
+        text-align: center
+
+#portfolio
+    padding: 2rem
+    display: grid
+    grid-template-columns: 1fr 1fr
+    font-weight: bold
+    #icon
+        padding: 1rem
+        margin-left: 20rem
+        text-align: right
+    #portfolio-text
+        padding: 1rem
+        margin-right: 20rem
+        text-align: left
+
+#projects
+    margin: 0 2rem 2rem 2rem
+    display: grid
+    grid-template-rows: 1fr 1fr
+    grid-template-columns: 1fr 1fr
+    row-gap: 1.5rem
+    column-gap: 1.5rem
+    text-align: center
+    div
+        padding: 10rem
+    .project-1
+        background: $quaternary-color
+
+    .project-2
+        background: $tertiary-color
+
+    .project-3
+        background: $secondary-color
+
+    .project-4
+        background: $primary-color
+
+#contact
+    background: $tertiary-color
+    padding: 2rem
+    display: grid
+    grid-template-rows: 1fr 1fr 1fr
+    justify-items: center
+    div
+        padding: .5rem
+        margin: .25rem
+    span
+        font-weight: bold
+        text-transform: uppercase
+    button
+        background: $tertiary-color
+        margin:.25rem
+
+footer
+    background: $footer-color
+    color: white
+    padding: 1rem
+    display: grid
+    grid-template-rows: 1fr 1fr
+    div
+        padding: .5rem
+        text-align: center
+    #location
+        display: grid
+        grid-template-columns: 10fr 1fr 10fr
+        font-weight: bold
+
+    #social
+        display: grid
+        grid-template-columns: 1fr 1fr
+

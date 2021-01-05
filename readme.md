@@ -3,6 +3,9 @@ Enter this text and then hit tab -->
 <!-- Language mode must be HTML
 html:5  -->
 
+<!-- Link CSS to HTML
+https://www.hostinger.com/tutorials/website/how-to-link-a-stylesheet-css-file-to-your-html-file -->
+
 <!-- SASS Notes
 https://sass-lang.com/guide
 
