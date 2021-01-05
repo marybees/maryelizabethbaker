@@ -91,10 +91,15 @@ nav #nav-right {
   grid-template-columns: 1fr 1fr;
   font-weight: bold;
 }
-.section-heading .icon {
+.section-heading .line-container {
+  display: grid;
+  align-items: center;
   padding: 1rem;
   margin-left: 20rem;
   text-align: right;
+}
+.section-heading .line-container .line {
+  background: black;
 }
 .section-heading .text {
   padding: 1rem;
@@ -201,6 +206,9 @@ footer #location {
 footer #social {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+footer #social i {
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

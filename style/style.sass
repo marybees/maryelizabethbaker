@@ -81,10 +81,15 @@ nav
     display: grid
     grid-template-columns: 1fr 1fr
     font-weight: bold
-    .icon
+    .line-container
+        display: grid
+        align-items: center
         padding: 1rem
         margin-left: 20rem
         text-align: right
+        .line
+            background: black
+
     .text
         padding: 1rem
         margin-right: 20rem
@@ -170,4 +175,6 @@ footer
     #social
         display: grid
         grid-template-columns: 1fr 1fr
+        i
+            font-size: 1.5rem
 
