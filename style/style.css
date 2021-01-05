@@ -207,8 +207,9 @@ footer #social {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-footer #social i {
+footer #social a {
   font-size: 1.5rem;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
