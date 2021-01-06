@@ -31,10 +31,6 @@ button {
   font-family: "Sen", sans-serif;
 }
 
-* {
-  border: solid red 1px;
-}
-
 html {
   font-size: 62.5%;
 }
@@ -52,7 +48,7 @@ body {
 }
 
 nav {
-  padding: 1rem;
+  padding: 5rem;
   background: #9AD7D8;
 }
 nav #initial {
@@ -84,6 +80,7 @@ nav button {
 }
 
 .section-heading {
+  padding: 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: black;
@@ -92,8 +89,8 @@ nav button {
   align-items: center;
   background: white;
   font-size: 1.25rem;
-  border-bottom: solid black 0.25rem;
-  border-top: solid black 0.25rem;
+  border-bottom: solid darkgray 0.25rem;
+  border-top: solid darkgray 0.25rem;
 }
 .section-heading .line {
   background: black;
@@ -108,9 +105,9 @@ nav button {
 
 #skills {
   background: #FFE6E1;
-  padding: 1rem;
+  padding: 5rem;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr 3fr;
+  grid-template-columns: 1fr 3fr;
 }
 #skills .skill {
   padding: 1rem;
@@ -140,20 +137,23 @@ nav button {
   margin-right: 5rem;
 }
 
-#experience div {
-  padding: 0 1rem;
+#experience {
+  padding: 5rem;
 }
 #experience .employer {
+  padding: 1rem 0;
   font-size: 1.25rem;
   font-weight: bold;
 }
 #experience .job {
-  padding: 0;
+  padding: 1rem 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  border-bottom: solid darkgray 0.25rem;
+  border-top: solid darkgray 0.25rem;
 }
 #experience .job-title {
-  padding-top: 0.25rem;
+  padding: 0.25rem 0;
   font-weight: bold;
 }
 #experience .date {
@@ -170,7 +170,7 @@ nav button {
 }
 
 #projects {
-  padding: 1rem;
+  padding: 5rem;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -196,7 +196,7 @@ nav button {
 
 #contact {
   background: #FFE6E1;
-  padding: 2rem;
+  padding: 5rem;
   display: grid;
   justify-items: center;
 }
@@ -212,13 +212,14 @@ nav button {
   text-transform: uppercase;
 }
 #contact button {
+  margin: 2rem;
   background: #FFE6E1;
 }
 
 footer {
   background: #000000;
   color: white;
-  padding: 1rem;
+  padding: 3rem;
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
