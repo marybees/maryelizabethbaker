@@ -2,6 +2,7 @@ h1, h2, h3 {
   margin: 0;
   text-transform: uppercase;
   padding: 1rem;
+  font-family: "Sen", sans-serif;
 }
 
 a {
@@ -27,6 +28,7 @@ button {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
+  font-family: "Sen", sans-serif;
 }
 
 * {
@@ -39,7 +41,7 @@ html {
 
 body {
   padding: 0 20rem;
-  font-family: "Encode Sans";
+  font-family: "Encode Sans Semi Expanded", sans-serif;
   font-weight: 400;
   background: #FFFFFF;
   color: #000000;
@@ -139,6 +141,40 @@ nav #nav-right {
 #skills .advanced-intermediate {
   background: #000000;
   margin-right: 5rem;
+}
+
+#experience-text {
+  padding: 1rem;
+  text-align: left;
+}
+
+#experience div {
+  padding: 0 1rem;
+}
+#experience .employer {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+#experience .job {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#experience .job-title {
+  padding-top: 0.25rem;
+  font-weight: bold;
+}
+#experience .date {
+  padding-top: 0.25rem;
+  padding-right: 1rem;
+  text-align: right;
+}
+#experience .job-description {
+  padding-left: 0;
+  font-weight: regular;
+}
+#experience .job-description li {
+  padding: 0.25rem 0;
 }
 
 #portfolio-text {

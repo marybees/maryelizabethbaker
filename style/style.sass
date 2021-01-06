@@ -4,11 +4,15 @@ $tertiary-color: #F7BEC7
 $quaternary-color: #000000
 $background-color: #FFFFFF
 $primary-font-color: #000000
+$font1: 'Encode Sans Semi Expanded', sans-serif
+$font2: 'Krona One', sans-serif
+$font3: 'Sen', sans-serif
 
 h1, h2, h3
     margin: 0
     text-transform: uppercase
     padding: 1rem
+    font-family: $font3
 
 a
     text-decoration: none
@@ -29,6 +33,7 @@ button
     font-size: 1rem
     font-weight: 600
     text-transform: uppercase
+    font-family: $font3
 
 *
     border: solid red 1px
@@ -38,7 +43,7 @@ html
 
 body
     padding: 0 20rem
-    font-family: 'Encode Sans'
+    font-family: $font1
     font-weight: 400
     background: $background-color
     color: $primary-font-color
@@ -120,6 +125,33 @@ nav
     .advanced-intermediate
         background: $quaternary-color
         margin-right: 5rem
+
+#experience-text
+    padding: 1rem
+    text-align: left
+
+#experience
+    div
+        padding: 0 1rem
+    .employer
+        font-size: 1.25rem
+        font-weight: bold
+    .job
+        padding: 0
+        display: grid
+        grid-template-columns: 1fr 1fr
+    .job-title
+        padding-top: .25rem
+        font-weight: bold
+    .date
+        padding-top: .25rem
+        padding-right: 1rem
+        text-align: right
+    .job-description
+        padding-left: 0
+        font-weight: regular
+        li
+            padding: .25rem 0
 
 #portfolio-text
     padding: 1rem
