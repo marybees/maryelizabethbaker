@@ -40,7 +40,6 @@ html {
 }
 
 body {
-  padding: 0 20rem;
   font-family: "Encode Sans Semi Expanded", sans-serif;
   font-weight: 400;
   background: #FFFFFF;
@@ -53,58 +52,58 @@ body {
 }
 
 nav {
-  display: grid;
   padding: 1rem;
-  grid-template-columns: 4fr 3fr;
   background: #9AD7D8;
 }
-nav #nav-left h4 {
-  margin: 0;
-  padding: 1rem;
-}
-nav #nav-left #initial {
+nav #initial {
   display: grid;
+  grid-template-columns: 2fr 1fr;
   font-size: 3rem;
   font-weight: 500;
   text-decoration: underline;
   text-align: center;
+  padding: 1rem;
 }
-nav #nav-left #profession {
+nav #profession {
+  padding: 0;
   display: grid;
   font-size: 1.75rem;
   font-weight: 500;
 }
-nav #nav-left #bio {
+nav #bio {
   font-size: 1rem;
   font-weight: 400;
 }
-nav #nav-left button {
+nav #bio h4 {
+  margin: 0;
+  padding: 1rem;
+}
+nav button {
   background: #9AD7D8;
   margin: 1rem;
-}
-nav #nav-right {
-  display: grid;
-  align-items: end;
-  justify-content: center;
-  text-align: center;
 }
 
 .section-heading {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  color: white;
+  color: black;
   font-weight: 800;
   text-align: center;
   align-items: center;
-  background: black;
+  background: white;
   font-size: 1.25rem;
+  border-bottom: solid black 0.25rem;
+  border-top: solid black 0.25rem;
 }
 .section-heading .line {
-  background: white;
+  background: black;
   padding: 0.25rem;
 }
+.section-heading .icon {
+  text-align: left;
+}
 .section-heading .icon i {
-  color: white;
+  color: black;
 }
 
 #skills {
