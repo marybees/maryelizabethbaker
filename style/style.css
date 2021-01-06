@@ -53,12 +53,12 @@ nav {
 }
 nav #initial {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 4fr 1fr;
   font-size: 3rem;
   font-weight: 500;
   text-decoration: underline;
   text-align: center;
-  padding: 1rem;
+  padding-bottom: 2rem;
 }
 nav #profession {
   padding: 0;
@@ -104,7 +104,7 @@ nav button {
 }
 
 #skills {
-  background: #FFE6E1;
+  background: #F7BEC7;
   padding: 5rem;
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -118,7 +118,7 @@ nav button {
 #skills .level {
   display: grid;
   margin: 1rem;
-  border: solid black 0.1rem;
+  border: solid white 0.1rem;
 }
 #skills .beginner {
   background: #000000;
@@ -139,6 +139,7 @@ nav button {
 
 #experience {
   padding: 5rem;
+  background: #FFE6E1;
 }
 #experience .employer {
   padding: 1rem 0;
@@ -149,8 +150,8 @@ nav button {
   padding: 1rem 0;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  border-bottom: solid darkgray 0.25rem;
-  border-top: solid darkgray 0.25rem;
+  border-bottom: solid white 0.25rem;
+  border-top: solid white 0.25rem;
 }
 #experience .job-title {
   padding: 0.25rem 0;
@@ -195,7 +196,7 @@ nav button {
 }
 
 #contact {
-  background: #FFE6E1;
+  background: #9AD7D8;
   padding: 5rem;
   display: grid;
   justify-items: center;
@@ -211,34 +212,33 @@ nav button {
   font-weight: bold;
   text-transform: uppercase;
 }
+#contact #social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+}
+#contact #social a {
+  font-size: 2rem;
+  color: black;
+}
 #contact button {
   margin: 2rem;
-  background: #FFE6E1;
+  background: #9AD7D8;
 }
 
 footer {
   background: #000000;
   color: white;
   padding: 3rem;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
 }
 footer div {
   padding: 0.5rem;
   text-align: center;
 }
-footer #location {
+footer #location-container {
   display: grid;
   grid-template-columns: 10fr 1fr 10fr;
   font-weight: bold;
-}
-footer #social {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-footer #social a {
-  font-size: 1.5rem;
-  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
