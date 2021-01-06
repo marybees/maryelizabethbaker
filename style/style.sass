@@ -10,6 +10,10 @@ h1, h2, h3
     text-transform: uppercase
     padding: 1rem
 
+a
+    text-decoration: none
+    color: black
+
 .right-align
     text-align: right
 
@@ -33,6 +37,7 @@ html
     font-size: 62.5%
 
 body
+    padding: 0 20rem
     font-family: 'Encode Sans'
     font-weight: 400
     background: $background-color
@@ -45,23 +50,22 @@ body
 
 nav
     display: grid
-    grid-template-columns: 2fr 1fr
+    padding: 1rem
+    grid-template-columns: 4fr 3fr
     background: $primary-color
     #nav-left
-        margin-left: 4rem
-        h2, h3, h4
+        h4
             margin: 0
             padding: 1rem
         #initial
             display: grid
-            grid-template-columns: 2fr 2fr
-            font-size: 2.5rem
+            font-size: 3rem
             font-weight: 500
             text-decoration: underline
             text-align: center
         #profession
-            font-size: 1.5rem
-            font-weight: bold
+            display: grid
+            font-size: 1.75rem
             font-weight: 500
         #bio
             font-size: 1rem
@@ -70,33 +74,30 @@ nav
             background: $primary-color
             margin: 1rem
     #nav-right
-        margin-right: 4rem
         display: grid
         align-items: end
+        justify-content: center
         text-align: center
 
 .section-heading
-    margin: 0
-    padding: 2rem
+    padding: 1rem
     display: grid
     grid-template-columns: 1fr 1fr
-    font-weight: bold
+    font-weight: 800
     .line-container
         display: grid
         align-items: center
         padding: 1rem
-        margin-left: 20rem
         text-align: right
         .line
             background: black
-
-    .text
+    #skills-text
         padding: 1rem
-        margin-right: 20rem
         text-align: left
+
 #skills
     background: $secondary-color
-    padding: 4rem
+    padding: 1rem
     display: grid
     grid-template-columns: 1fr 3fr 1fr 3fr
     .skill
@@ -120,8 +121,12 @@ nav
         background: $quaternary-color
         margin-right: 5rem
 
+#portfolio-text
+    padding: 1rem
+    text-align: left
+
 #projects
-    margin: 0 2rem 2rem 2rem
+    padding: 1rem
     display: grid
     grid-template-rows: 1fr 1fr
     grid-template-columns: 1fr 1fr
@@ -129,7 +134,7 @@ nav
     column-gap: 1.5rem
     text-align: center
     div
-        padding: 10rem
+        padding: 1rem
     .project-1
         background: $tertiary-color
 
