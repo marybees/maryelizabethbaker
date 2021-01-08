@@ -38,16 +38,22 @@ html {
 body {
   font-family: "Encode Sans Semi Expanded", sans-serif;
   font-weight: 400;
-  background: #FFFFFF;
   color: #000000;
   padding: 0;
   margin: 0;
 }
 
-#header h1 {
-  padding: 3rem;
-  margin: 2rem;
+#header-container {
+  background-image: url("https://user-images.githubusercontent.com/26241240/103963670-e277ab80-5127-11eb-9df9-703910fb2d6b.png");
+  background-attachment: fixed;
+}
+
+#header {
   border: solid #FFE6E1 0.25rem;
+  margin: 2rem;
+}
+#header h1 {
+  padding: 5rem;
   text-align: center;
   font-size: 3rem;
 }
