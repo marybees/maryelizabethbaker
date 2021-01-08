@@ -134,10 +134,24 @@ nav
         background: $quaternary-color
         margin-right: 5rem
 
+#education
+    padding: 5rem
+    background: $secondary-color
+    margin: 2rem
+    .school
+        padding-top: 1rem
+        font-weight: 600
+        border-top: solid white .25rem
+    .degree
+        padding-top: .25rem
+        font-weight: 800
+    .classes
+        padding: 1rem 0
+
 #experience
     padding: 5rem
     margin: 2rem
-    background: $secondary-color
+    border: solid $primary-color 1rem
     .employer
         padding: 1rem 0
         font-size: 1.25rem
@@ -146,8 +160,8 @@ nav
         padding: 1rem 0
         display: grid
         grid-template-columns: 2fr 1fr
-        border-bottom: solid white .25rem
-        border-top: solid white .25rem
+        border-bottom: solid $secondary-color .25rem
+        border-top: solid $secondary-color .25rem
     .job-title
         padding: .25rem 0
         font-weight: bold
@@ -166,9 +180,9 @@ nav
         margin: 2rem 2rem 0 2rem
         padding: 2.5rem 0
         text-align: center
-        background: $quaternary-color
+        background: $tertiary-color
         div
-            color: white
+            color: $primary-font-color
             padding-top: 2rem
             font-weight: bold
         img
@@ -201,8 +215,9 @@ nav
         background: $primary-color
 
 footer
-    background: $tertiary-color
+    background: $quaternary-color
     padding: 3rem
+    color: white
     div
         padding: .5rem
         text-align: center

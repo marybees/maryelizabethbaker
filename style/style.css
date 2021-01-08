@@ -153,10 +153,28 @@ nav button {
   margin-right: 5rem;
 }
 
+#education {
+  padding: 5rem;
+  background: #FFE6E1;
+  margin: 2rem;
+}
+#education .school {
+  padding-top: 1rem;
+  font-weight: 600;
+  border-top: solid white 0.25rem;
+}
+#education .degree {
+  padding-top: 0.25rem;
+  font-weight: 800;
+}
+#education .classes {
+  padding: 1rem 0;
+}
+
 #experience {
   padding: 5rem;
   margin: 2rem;
-  background: #FFE6E1;
+  border: solid #9AD7D8 1rem;
 }
 #experience .employer {
   padding: 1rem 0;
@@ -167,8 +185,8 @@ nav button {
   padding: 1rem 0;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  border-bottom: solid white 0.25rem;
-  border-top: solid white 0.25rem;
+  border-bottom: solid #FFE6E1 0.25rem;
+  border-top: solid #FFE6E1 0.25rem;
 }
 #experience .job-title {
   padding: 0.25rem 0;
@@ -191,10 +209,10 @@ nav button {
   margin: 2rem 2rem 0 2rem;
   padding: 2.5rem 0;
   text-align: center;
-  background: #000000;
+  background: #F7BEC7;
 }
 #projects .project div {
-  color: white;
+  color: #000000;
   padding-top: 2rem;
   font-weight: bold;
 }
@@ -236,8 +254,9 @@ nav button {
 }
 
 footer {
-  background: #F7BEC7;
+  background: #000000;
   padding: 3rem;
+  color: white;
 }
 footer div {
   padding: 0.5rem;
