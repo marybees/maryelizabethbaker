@@ -181,18 +181,18 @@ nav button {
   padding: 0.25rem 0;
 }
 
-#projects .project-1 {
+#projects .project {
   margin: 2rem 2rem 0 2rem;
   padding: 2.5rem 0;
   text-align: center;
   background: #000000;
 }
-#projects .project-1 div {
+#projects .project div {
   color: white;
   padding-top: 2rem;
   font-weight: bold;
 }
-#projects .project-1 img {
+#projects .project img {
   padding: 4rem;
   border: solid white 0.25rem;
 }
@@ -230,8 +230,7 @@ nav button {
 }
 
 footer {
-  background: #000000;
-  color: white;
+  background: #F7BEC7;
   padding: 3rem;
 }
 footer div {
