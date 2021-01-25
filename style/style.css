@@ -263,4 +263,13 @@ footer #location-container {
   font-weight: bold;
 }
 
+/*Media Queries*/
+body {
+  margin: 0rem 20rem;
+}
+
+#header {
+  margin: 2rem 0;
+}
+
 /*# sourceMappingURL=style.css.map */
