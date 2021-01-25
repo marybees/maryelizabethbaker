@@ -133,19 +133,19 @@ nav button {
 }
 #skills .beginner {
   background: #000000;
-  margin-right: 12rem;
+  margin-right: 90%;
 }
 #skills .advanced-beginner {
   background: #000000;
-  margin-right: 10rem;
+  margin-right: 75%;
 }
 #skills .intermediate {
   background: #000000;
-  margin-right: 8rem;
+  margin-right: 50%;
 }
 #skills .advanced-intermediate {
   background: #000000;
-  margin-right: 5rem;
+  margin-right: 25%;
 }
 
 #education {
