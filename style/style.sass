@@ -1,9 +1,9 @@
 $primary-color: #9AD7D8
 $secondary-color: #FFE6E1
 $tertiary-color: #A5C2D7
-$quaternary-color: #000000
+$quaternary-color: #3A3B3C
 $background-color: #FFFFFF
-$primary-font-color: #000000
+$primary-font-color: #3A3B3C
 $font1: 'Encode Sans Semi Expanded', sans-serif
 $font2: 'Krona One', sans-serif
 $font3: 'Sen', sans-serif
@@ -16,7 +16,7 @@ h1, h2, h3
 
 a
     text-decoration: none
-    color: black
+    color: $quaternary-color
 
 .right-align
     text-align: right
@@ -28,7 +28,7 @@ a
     text-align: left
 
 button
-    border: solid .15rem black
+    border: solid .15rem $quaternary-color
     padding: .5rem
     font-size: 1rem
     font-weight: 600
@@ -46,7 +46,7 @@ body
     margin: 0
 
 #header
-    border: solid $secondary-color .25rem
+    border: solid $tertiary-color 1rem
     margin: 2rem
     h1
         padding: 5rem
@@ -86,23 +86,23 @@ nav
     padding: 3rem
     display: grid
     grid-template-columns: 1fr 1fr 1fr
-    color: black
+    color: $quaternary-color
     font-weight: 800
     text-align: center
     align-items: center
     background: white
     font-size: 1.25rem
     .line
-        background: black
+        background: $quaternary-color
         padding: .25rem
     .icon
         text-align: left
         i
-            color: black
+            color: $quaternary-color
             font-size: 1.5rem
 
 #skills
-    background: $tertiary-color
+    background: $secondary-color
     margin: 2rem
     padding: 5rem
     display: grid
@@ -114,7 +114,7 @@ nav
     .level
         display: grid
         margin: 1rem
-        border: solid white .1rem
+        border: solid white .25rem
     .beginner
         background: $quaternary-color
         margin-right: 90%
@@ -128,6 +128,19 @@ nav
         background: $quaternary-color
         margin-right: 25%
 
+#projects
+    .project
+        margin: 2rem 2rem 0 2rem
+        padding: 2.5rem 0
+        text-align: center
+        background: $quaternary-color
+        div
+            color: $primary-font-color
+            padding-top: 2rem
+            font-weight: bold
+        img
+            padding: 4rem
+            border: solid white .25rem
 #education
     padding: 5rem
     background: $secondary-color
@@ -145,7 +158,7 @@ nav
 #experience
     padding: 5rem
     margin: 2rem
-    border: solid $primary-color 1rem
+    border: solid $tertiary-color 1rem
     .employer
         padding: 1rem 0
         font-size: 1.25rem
@@ -169,20 +182,6 @@ nav
         li
             padding: .25rem 0
 
-#projects
-    .project
-        margin: 2rem 2rem 0 2rem
-        padding: 2.5rem 0
-        text-align: center
-        background: $tertiary-color
-        div
-            color: $primary-font-color
-            padding-top: 2rem
-            font-weight: bold
-        img
-            padding: 4rem
-            border: solid white .25rem
-
 #contact
     background: $primary-color
     padding: 5rem
@@ -203,7 +202,7 @@ nav
         padding: 0
         a
             font-size: 2rem
-            color: black
+            color: $quaternary-color
     button
         margin: 2rem
         background: $primary-color

@@ -7,7 +7,7 @@ h1, h2, h3 {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #3A3B3C;
 }
 
 .right-align {
@@ -23,7 +23,7 @@ a {
 }
 
 button {
-  border: solid 0.15rem black;
+  border: solid 0.15rem #3A3B3C;
   padding: 0.5rem;
   font-size: 1rem;
   font-weight: 600;
@@ -38,13 +38,13 @@ html {
 body {
   font-family: "Encode Sans Semi Expanded", sans-serif;
   font-weight: 400;
-  color: #000000;
+  color: #3A3B3C;
   padding: 0;
   margin: 0;
 }
 
 #header {
-  border: solid #FFE6E1 0.25rem;
+  border: solid #A5C2D7 1rem;
   margin: 2rem;
 }
 #header h1 {
@@ -94,7 +94,7 @@ nav button {
   padding: 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  color: black;
+  color: #3A3B3C;
   font-weight: 800;
   text-align: center;
   align-items: center;
@@ -102,19 +102,19 @@ nav button {
   font-size: 1.25rem;
 }
 .section-heading .line {
-  background: black;
+  background: #3A3B3C;
   padding: 0.25rem;
 }
 .section-heading .icon {
   text-align: left;
 }
 .section-heading .icon i {
-  color: black;
+  color: #3A3B3C;
   font-size: 1.5rem;
 }
 
 #skills {
-  background: #A5C2D7;
+  background: #FFE6E1;
   margin: 2rem;
   padding: 5rem;
   display: grid;
@@ -129,23 +129,39 @@ nav button {
 #skills .level {
   display: grid;
   margin: 1rem;
-  border: solid white 0.1rem;
+  border: solid white 0.25rem;
 }
 #skills .beginner {
-  background: #000000;
+  background: #3A3B3C;
   margin-right: 90%;
 }
 #skills .advanced-beginner {
-  background: #000000;
+  background: #3A3B3C;
   margin-right: 75%;
 }
 #skills .intermediate {
-  background: #000000;
+  background: #3A3B3C;
   margin-right: 50%;
 }
 #skills .advanced-intermediate {
-  background: #000000;
+  background: #3A3B3C;
   margin-right: 25%;
+}
+
+#projects .project {
+  margin: 2rem 2rem 0 2rem;
+  padding: 2.5rem 0;
+  text-align: center;
+  background: #3A3B3C;
+}
+#projects .project div {
+  color: #3A3B3C;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+#projects .project img {
+  padding: 4rem;
+  border: solid white 0.25rem;
 }
 
 #education {
@@ -169,7 +185,7 @@ nav button {
 #experience {
   padding: 5rem;
   margin: 2rem;
-  border: solid #9AD7D8 1rem;
+  border: solid #A5C2D7 1rem;
 }
 #experience .employer {
   padding: 1rem 0;
@@ -200,22 +216,6 @@ nav button {
   padding: 0.25rem 0;
 }
 
-#projects .project {
-  margin: 2rem 2rem 0 2rem;
-  padding: 2.5rem 0;
-  text-align: center;
-  background: #A5C2D7;
-}
-#projects .project div {
-  color: #000000;
-  padding-top: 2rem;
-  font-weight: bold;
-}
-#projects .project img {
-  padding: 4rem;
-  border: solid white 0.25rem;
-}
-
 #contact {
   background: #9AD7D8;
   padding: 5rem;
@@ -241,7 +241,7 @@ nav button {
 }
 #contact #social a {
   font-size: 2rem;
-  color: black;
+  color: #3A3B3C;
 }
 #contact button {
   margin: 2rem;
@@ -249,7 +249,7 @@ nav button {
 }
 
 footer {
-  background: #000000;
+  background: #3A3B3C;
   padding: 3rem;
   color: white;
 }
