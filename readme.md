@@ -1,24 +1,18 @@
-<!-- HTML Boilerplate
-Enter this text and then hit tab -->
-<!-- Language mode must be HTML
-html:5  -->
+### Hi there 👋, my name is Mary
+#### I'm a Full Stack Web Developer, with a passion for frontend design and strong interest in React development.
+Junior full stack web developer with a strong background in community and program management, specializing in developer marketing, business operations and engineering partnership to achieve organizational objectives. 8 years of experience working in tech alongside software developers. Remote global team experience with exceptional intercultural and cross-team collaboration skills. 
 
-<!-- Link CSS to HTML
-https://www.hostinger.com/tutorials/website/how-to-link-a-stylesheet-css-file-to-your-html-file -->
+Skills: JAVASCRIPT / REACT / HTML / CSS
 
-<!-- SASS Notes
-https://sass-lang.com/guide
+- 🌱 I’m currently learning Ant Design, Sass, CSS Grid 
+- 📫 How to reach me: meb601@gmail.com 
+- 😄 Pronouns: She/her/hers 
+- ⚡ Fun fact: I speak intermediate Spanish 
 
-Installing, Setup and Nesting | Starting with Sass
-https://www.youtube.com/watch?v=Rnxyf6Vyqiw
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/marybees)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/maryebees/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](maryelizabethbaker.com)  
 
-Variables & Mixins | Starting with Sass
-https://www.youtube.com/watch?v=JvtjW1rJZS8
+[![trophy](https://github-profile-trophy.vercel.app/?username=marybees)](https://github.com/ryo-ma/github-profile-trophy)
 
-Partials & Imports | Starting with Sass
-https://www.youtube.com/watch?v=rB_DbuFCq_w -->
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=marybees)](https://github.com/anuraghazra/github-readme-stats)
 
-<!-- CSS Grid
-https://css-tricks.com/snippets/css/complete-guide-grid/
-https://www.youtube.com/watch?v=br-0i3U1VCA
-display: grid; -->
+![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=marybees)
