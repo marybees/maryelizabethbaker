@@ -252,6 +252,7 @@ footer {
   background: #3A3B3C;
   padding: 3rem;
   color: white;
+  display: grid;
 }
 footer div {
   padding: 0.5rem;
@@ -261,15 +262,6 @@ footer #location-container {
   display: grid;
   grid-template-columns: 10fr 1fr 10fr;
   font-weight: bold;
-}
-
-/*Media Queries*/
-body {
-  margin: 0rem 20rem;
-}
-
-#header {
-  margin: 2rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */
